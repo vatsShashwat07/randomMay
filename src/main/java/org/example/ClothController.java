@@ -10,6 +10,6 @@ public class ClothController {
 
     @GetMapping("/cloths")
     public List<String> getCloths(){
-        return List.of("Shirt, Pant, Towel, Rumal");
+        return List.of("Shirt, Pant, Towel, PillowCover");
     }
 }
